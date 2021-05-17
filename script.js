@@ -1,4 +1,4 @@
-/*"use strict";
+"use strict";
 
 var n = 1;
 
@@ -13,9 +13,9 @@ function change1 ()
 		a.href = "style.css";
 		document.getElementById("dlmode").src="moon.jpg";
 		n = 1;}
-}*/
+}
 
-"use strict";
+/*"use strict";
 
 var n = 1;
 
@@ -36,4 +36,4 @@ function change1 ()
 		document.getElementById("navbar").style.borderBottom = "1px solid black";
 		document.getElementById("navbar").style.backgroundImage="url(light2.jpg)";
 		n = 1;}
-}
+}*/
