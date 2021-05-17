@@ -1,5 +1,5 @@
 #bd{
-	background-image: url("light.jpg");
+	background-image: url("light2.jpg");
 	background-size: cover;
 	transition: 0.3s;
 	background-image: fixed;
@@ -42,7 +42,8 @@ img{
 	left: 0px;
 	border-bottom: 1px solid black;
 	position: fixed;
-	background-image: url("light.jpg");
+	background-image: url("light2.jpg");
+	background-size: cover;
 	transition: 0.3s;
 }
 
