@@ -138,6 +138,7 @@ img{
 	height: 265px;
 	width: 655px;
 	transition: 0.3s;
+	border-radius: 20px;
 }
 
 .hide:hover{
@@ -165,6 +166,7 @@ img{
 	width: 1330px;
 	height: 100px;
 	transition: 0.3s;
+	border-radius: 20px;
 }
 
 .anunt{
@@ -326,7 +328,7 @@ img{
 #button1{
 	position: absolute;
 	top: 3350px;
-	left: 550px;
+	left: 560px;
 }
 
 .button:hover .buttontxt{
@@ -351,6 +353,7 @@ img{
 	height: 500px;
 	transition: 0.3s;
 	padding: 30px;
+	border-radius: 20px;
 }
 
 .felicitare:hover{
@@ -377,7 +380,7 @@ img{
 
 #separator5{
 	position: absolute;
-	top: 5300px;
+	top: 5150px;
 }
 
 .funny{
@@ -473,5 +476,94 @@ img{
 #button2{
 	position: absolute;
 	top: 4800px;
-	left: 560px;
+	left: 580px;
+}
+
+#felicitare2{
+	top: 5530px;
+	position: absolute;
+	display: none;
+}
+
+#button3{
+	position: absolute;
+	top: 5425px;
+	left: 580px;
+}
+
+#warnning{
+	background-color: #ff002b80;
+	width: 1330px;
+	height: 70px;
+	transition: 0.3s;
+	position: absolute;
+	top: 5300px;
+	border-radius: 40px;
+}
+
+#warnning:hover{
+	background-color: #ff002bbd;
+}
+
+#warnningtxt{
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#bar{
+	position: absolute;
+	top: 6800px;
+	width: 1330px;
+	height: 3px;
+	color: white;
+}
+
+#finaltxt{
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+	color: white;
+	top: 6710px;
+	left: 450px;
+	min-width: 500px;
+}
+
+#bar1{
+	position: absolute;
+	top: 6700px;
+	width: 1330px;
+	height: 3px;
+	color: white;
+}
+
+#final{
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	top: 6400px;
+	left: 425px;
+}
+
+#music{
+	position: absolute;
+	width: 500px;
+	left: 420px;
+	top: 6200px;
+}
+
+#scroll{
+	position: fixed;
+	right: 10px;
+	bottom: 30px;
+	width: 50px;
+	height: 50px;
+	opacity: 50%;
+}
+
+#scroll:hover{
+	opacity: 100%;
+	cursor: pointer;
 }

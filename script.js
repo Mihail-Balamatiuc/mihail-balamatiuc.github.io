@@ -74,6 +74,25 @@ function appear1()
 	}
 }
 
+let parol = "pingvincic";
+
+function parola()
+{
+	let verify = prompt("Parola e cum te numesc eu");
+	if(verify == parol)
+		document.getElementById("felicitare2").style.display="block";
+	else
+		document.getElementById("felicitare2").style.display="none";
+}
+
+function scrollup()
+{
+	window.scrollTo({
+		top: 0, 
+		behavior: "smooth"
+	});
+}
+
 /*"use strict";
 
 var n = 1;
