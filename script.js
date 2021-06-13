@@ -74,11 +74,11 @@ function appear1()
 	}
 }
 
-let parol = "pingvincic";
+let parol = "0610";
 
 function parola()
 {
-	let verify = prompt("Parola e cum te numesc eu");
+	let verify = prompt("Parola e cea care o punem mereu la orice dulap");
 	if(verify == parol)
 		document.getElementById("felicitare2").style.display="block";
 	else

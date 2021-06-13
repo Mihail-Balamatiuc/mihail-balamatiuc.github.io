@@ -129,7 +129,7 @@ img{
 	position: absolute;
 	background-color: #0000008c;
 	padding: 5px;
-	padding-left: 30px;
+	padding-left: 25px;
 	height: 265px;
 	width: 655px;
 	transition: 0.3s;
@@ -147,7 +147,7 @@ img{
 
 .hidetxt{
 	font-family: 'Righteous', cursive;
-	font-size: 20px;
+	font-size: 24px;
 	color: white;
 }
 
@@ -364,8 +364,15 @@ img{
 
 .felicitaretxt{
 	font-family: 'Righteous', cursive;
-	font-size: 25px;
 	color: white;
+}
+
+#f1{
+	font-size: 29px;
+}
+
+#f2{
+	font-size: 29px;
 }
 
 #separator4{
